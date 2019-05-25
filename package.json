@@ -1,0 +1,27 @@
+{
+  "name": "kata2",
+  "version": "1.0.0",
+  "description": "React practice with postgres",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahkiemcm/kata2.git"
+  },
+  "author": "X-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahkiemcm/kata2/issues"
+  },
+  "homepage": "https://github.com/ahkiemcm/kata2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.0",
+    "nodemon": "^1.19.0",
+    "pg": "^7.11.0"
+  }
+}
