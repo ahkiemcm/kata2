@@ -4,7 +4,7 @@
   "description": "React practice with postgres",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server"
+    "server": "nodemon connection/server"
   },
   "repository": {
     "type": "git",
