@@ -14,6 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use("/api/cities", require("./api/cities"));
+app.use("/api/weather", require("./api/weather"));
 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
